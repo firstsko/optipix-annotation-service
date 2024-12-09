@@ -13,26 +13,28 @@ go run cmd/main.go
 
 ```
 ```
+# Directory Structure
+
 project/
-├── cmd/                      # Service entry directory
-│   └── main.go               # Main service entry point
-├── internal/                 # Internal module directory
-│   ├── annotation/           # Annotation logic
-│   │   └── handler.go        # Annotation WebSocket handling
-│   └── chat/                 # Chat logic
-│       └── handler.go        # Chat WebSocket handling
-├── pkg/                      # Reusable components
-│   └── websocket/            # WebSocket utilities and wrappers
-│   └── database/             # Database utilities and wrappers
-│   └── config/               # Config utilities and wrappers
-├── configs/                  # Configuration directory
-│   └── config.yaml           # Configuration file
-├── sql/                      # Sql Schema 
-│   └── optipix.sql           # Sql Schema file
-├── scripts/                  # Sql Schema 
-│   └── build.sh              # Compile script file
-│   └── run.sh                # Run script file
-├── go.mod                    # Go module file
-└── README.md                 # Documentation
+- cmd/  # Service entry directory
+  - main.go  # Main service entry point
+- internal/  # Internal module directory
+  - annotation/  # Annotation logic
+    - handler.go  # Annotation WebSocket handling
+  - chat/  # Chat logic
+    - handler.go  # Chat WebSocket handling
+- pkg/  # Reusable components
+  - websocket/  # WebSocket utilities and wrappers
+  - database/  # Database utilities and wrappers
+  - config/  # Config utilities and wrappers
+- configs/  # Configuration directory
+  - config.yaml  # Configuration file
+- sql/  # SQL Schema
+  - optipix.sql  # SQL Schema file
+- scripts/  # SQL Schema
+  - build.sh  # Compile script file
+  - run.sh  # Run script file
+- go.mod  # Go module file
+- README.md  # Documentation
 ```
 
