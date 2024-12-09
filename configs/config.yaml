@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  log_level: debug  
+
+websocket:
+  max_message_size: 1024 
+  read_buffer_size: 4096
+  write_buffer_size: 4096 
+
+database:
+  host: "15.168.229.110"
+  port: 3306
+  user: "root"
+  password: "tu75fed3"
+  name: "optipix"
